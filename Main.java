@@ -9,5 +9,12 @@ public class Main {
         k.tampilIdentitas();
         k.prosesBelanja(p1, 3);
 
+        System.out.println("\n\n");
+
+        p2.tampilInfo();
+
+        k.tampilIdentitas();
+        k.prosesBelanja(p2, 11);
+
     }
 }
