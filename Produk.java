@@ -9,9 +9,13 @@ public abstract class Produk {
         this.stok = stok;
     }
 
+    public void setStok(int jmlhBeli) {
+        stok -= jmlhBeli;
+    }
+
+    public int getStok() { return stok; }
+
     
-
-
 
 
 
