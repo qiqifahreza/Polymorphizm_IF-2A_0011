@@ -4,7 +4,10 @@ public class Main {
         Produk p2 = new Makanan("Bakso", 1000, 100, 3);
         Kasir k = new Kasir("Maman");
 
-        
+        p1.tampilInfo();
+
+        k.tampilIdentitas();
+        k.prosesBelanja(p1, 3);
 
     }
 }
